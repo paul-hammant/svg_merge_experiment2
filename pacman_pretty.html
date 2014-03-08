@@ -1,6 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg
+<?xml version="1.0"?>
+<!DOCTYPE html>
+<html
+  ><head
+    ><title
+      >Paul's Pacman Omnigraffle/Svg/Angular/Html/Branching Test</title
+    ><script
+        src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"
+    ></script>
+    <script
+      >
+        function Pacman($scope) {
+            $scope.eyeColor = "blue";
+        }
+    </script
+    ></head
+  ><body
+      ng-app=""
+      ng-controller="Pacman"
+    ><svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xl="http://www.w3.org/1999/xlink"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -54,7 +71,7 @@
           stroke-width="1"
       /><path
           d="M 323.1496 147.40157 L 327.60453 161.11242 L 342.02096 161.11242 L 330.35782 169.58619 L 334.81274 183.29703 L 323.1496 174.82326 L 311.48646 183.29703 L 315.94139 169.58619 L 304.27825 161.11242 L 318.69468 161.11242 Z"
-          fill="red"
+              ng-attr-fill="{{eyeColor}}"
       /><path
           d="M 323.1496 147.40157 L 327.60453 161.11242 L 342.02096 161.11242 L 330.35782 169.58619 L 334.81274 183.29703 L 323.1496 174.82326 L 311.48646 183.29703 L 315.94139 169.58619 L 304.27825 161.11242 L 318.69468 161.11242 Z"
           stroke="black"
@@ -64,4 +81,6 @@
       /></g
     ></g
   ></svg
+    ></body
+  ></html
 >
